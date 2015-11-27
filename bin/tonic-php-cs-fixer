@@ -1,8 +1,8 @@
 #!/usr/bin/php
 <?php
 
-if (file_exists(sprintf('%s/php-cs-fixer', __DIR__))) {
-    $binaryDir = '.';
+if (file_exists(sprintf('%s/../../../autoload.php', __DIR__))) {
+    $binaryDir = sprintf('%s/../../../bin', __DIR__);
 } else {
     $binaryDir = sprintf('%s/../vendor/bin', __DIR__);
 }
