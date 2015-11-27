@@ -1,0 +1,16 @@
+{
+    "name": "tonicforhealth/phpcs",
+    "description": "Php code style utils",
+    "authors": [
+        {
+            "name": "oleksii.storozhylov",
+            "email": "oleksii.storozhylov@tonicforhealth.com"
+        }
+    ],
+    "require": {
+        "fabpot/php-cs-fixer": "~1.10",
+        "squizlabs/php_codesniffer": "~2.4",
+        "m6web/symfony2-coding-standard": "~3.1"
+    },
+    "bin": ["bin/php-cs-fixer.php"]
+}
