@@ -8,7 +8,7 @@ Install via composer (local or global)
 
 Program:
 
-    PATH_TO_PACKAGE/bin/tonic-php-cs-fixer
+    VENDOR_PATH/bin/tonic-php-cs-fixer
 
 Parameters:
 
@@ -17,3 +17,11 @@ Parameters:
 Working directory
 
     $ProjectFileDir$
+
+# codesniffer
+
+    VENDOR_PATH/bin/phpcs
+
+# codesniffer symfony standard
+
+    VENDOR_PATH/m6web/symfony2-coding-standard/M6Web_Symfony2
