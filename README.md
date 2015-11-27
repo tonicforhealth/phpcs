@@ -2,7 +2,7 @@
 
 Install via composer (local or global)
 
-    composer require tonicforhealth/phpcs
+    composer global require tonicforhealth/phpcs
 
 # phpSotrm extarnal tool
 
