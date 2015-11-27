@@ -1,7 +1,13 @@
 #!/usr/bin/php
 <?php
 
-$binary = realpath(sprintf('%s/../vendor/bin/php-cs-fixer', __DIR__));
+if (file_exists(sprintf('%s/php-cs-fixer', __DIR__))) {
+    $binaryDir = '.';
+} else {
+    $binaryDir = sprintf('%s/../vendor/bin', __DIR__);
+}
+
+$binary = realpath(sprintf('%s/php-cs-fixer', $binaryDir));
 
 $configs = [
     '--level' => 'symfony',

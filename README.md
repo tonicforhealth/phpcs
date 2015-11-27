@@ -8,7 +8,7 @@ Install via composer (local or global)
 
 Program:
 
-    PATH_TO_PACKAGE/bin/php-cs-fixer.php
+    PATH_TO_PACKAGE/bin/tonic-php-cs-fixer
 
 Parameters:
 
