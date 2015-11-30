@@ -11,7 +11,7 @@ $binary = realpath(sprintf('%s/php-cs-fixer', $binaryDir));
 
 $configs = [
     '--level' => 'symfony',
-    '--fixers' => '-phpdoc_to_comment,-phpdoc_var_without_name,-phpdoc_short_description,-empty_return',
+    '--fixers' => '-phpdoc_to_comment,-phpdoc_var_without_name,-phpdoc_short_description,-empty_return,-pre_increment',
 ];
 
 foreach ($configs as $name => $value) {
