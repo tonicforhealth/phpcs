@@ -4,7 +4,7 @@ Install via composer (local or global)
 
     composer global require tonicforhealth/phpcs
 
-# phpSotrm extarnal tool
+# phpStorm extarnal tool
 
 Program:
 
