@@ -24,4 +24,4 @@ Working directory
 
 # codesniffer symfony standard
 
-    VENDOR_PATH/m6web/symfony2-coding-standard/M6Web_Symfony2
+    VENDOR_PATH/m6web/symfony2-coding-standard/Symfony2
