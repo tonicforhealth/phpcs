@@ -24,4 +24,4 @@ Working directory
 
 # codesniffer symfony standard
 
-    VENDOR_PATH/tonicforhealth/symfony2-coding-standard
+    VENDOR_PATH/tonicforhealth/coding-standard/Symfony2
