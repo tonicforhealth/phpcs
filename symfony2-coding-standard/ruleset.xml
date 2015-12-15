@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="Tonic_Symfony2">
+    <description>Tonic coding standard for Symfony2 projects.</description>
+    <rule ref="../../m6web/symfony2-coding-standard/Symfony2">
+        <exclude name="PEAR.Functions.FunctionCallSignature"/>
+    </rule>
+</ruleset>
