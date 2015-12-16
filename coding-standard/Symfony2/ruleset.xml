@@ -3,6 +3,5 @@
     <description>Tonic coding standard for Symfony2 projects.</description>
     <rule ref="../../../../m6web/symfony2-coding-standard/Symfony2">
         <exclude name="PEAR.Functions.FunctionCallSignature"/>
-        <exclude name="Symfony2.Functions.ScopeOrder"/>
     </rule>
 </ruleset>
