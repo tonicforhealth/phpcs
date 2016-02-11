@@ -8,9 +8,9 @@
         }
     ],
     "require": {
-        "fabpot/php-cs-fixer": "~1.10",
-        "squizlabs/php_codesniffer": "~2.5",
-        "m6web/symfony2-coding-standard": "~3.1"
+        "fabpot/php-cs-fixer": "1.11.*",
+        "squizlabs/php_codesniffer": "2.5.*",
+        "m6web/symfony2-coding-standard": "3.1.*"
     },
     "bin": ["bin/tonic-php-cs-fixer"]
 }
