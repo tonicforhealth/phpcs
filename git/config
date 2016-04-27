@@ -24,5 +24,5 @@ PHPCS_IGNORE_WARNINGS=1
 # encoding
 PHPCS_ENCODING=utf-8
 
-
-PHPCS_FIXER=/Users/kandelyabre/.composer/vendor/bin/tonic-php-cs-fixer
+# path to php-cs-fixer binary
+PHPCS_FIXER=/CHANGE_ME/bin/tonic-php-cs-fixer
