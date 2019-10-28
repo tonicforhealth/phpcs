@@ -12,7 +12,7 @@ $configFile = realpath(sprintf('%s/../php-cs-fixer-config/skip_xml.php', __DIR__
 
 $configs = [
     '--level' => 'symfony',
-    '--fixers' => '-phpdoc_to_comment,-phpdoc_var_without_name,-phpdoc_short_description,-empty_return,-pre_increment,-phpdoc_no_empty_return',
+    '--fixers' => '-phpdoc_to_comment,-phpdoc_var_without_name,-phpdoc_short_description,-empty_return,-pre_increment,-phpdoc_no_empty_return,-psr0',
     '--config-file' => $configFile,
 ];
 
